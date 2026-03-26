@@ -10,6 +10,7 @@ def create_app() -> FastAPI:
     origins = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://erickkoh25.github.io",
         "https://ErickKoh25.github.io",
     ]
 
